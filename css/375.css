@@ -1,29 +1,10 @@
 @media only screen and (max-width: 600px) {
-  @-webkit-keyframes water1024 {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-448vw);
-    }
-  }
   @keyframes water1024 {
     0% {
       transform: translateX(0);
     }
     100% {
       transform: translateX(-448vw);
-    }
-  }
-  @-webkit-keyframes main-button375 {
-    0% {
-      margin-top: 0vw;
-    }
-    50% {
-      margin-top: 8vw;
-    }
-    100% {
-      margin-top: 0vw;
     }
   }
   @keyframes main-button375 {
@@ -35,17 +16,6 @@
     }
     100% {
       margin-top: 0vw;
-    }
-  }
-  @-webkit-keyframes arrow375 {
-    0% {
-      margin-bottom: 1%;
-    }
-    50% {
-      margin-bottom: 0%;
-    }
-    100% {
-      margin-bottom: 1%;
     }
   }
   @keyframes arrow375 {
@@ -97,8 +67,7 @@
     background-size: 448vw 51.733vw;
     bottom: auto;
     top: 105.333vw;
-    -webkit-animation: 15s water1024 linear infinite;
-            animation: 15s water1024 linear infinite;
+    animation: 15s water1024 linear infinite;
   }
   .main .water-blur1 {
     top: 110.133vw;
@@ -111,7 +80,6 @@
     top: 86.667vw;
     font-size: 8vw;
     line-height: 10.667vw;
-    width: -webkit-min-content;
     width: -moz-min-content;
     width: min-content;
     bottom: auto;
@@ -238,8 +206,7 @@
     border-left: 0.533vw solid #ffffff;
     border-bottom: 0.533vw solid #ffffff;
     transform: rotate(135deg);
-    -webkit-animation: 1.5s arrow375 linear infinite;
-            animation: 1.5s arrow375 linear infinite;
+    animation: 1.5s arrow375 linear infinite;
   }
   .beginning .beginning__container .beginning__slider::after {
     left: 4vw;
@@ -251,8 +218,7 @@
     width: 2.133vw;
     border-left: 0.533vw solid #ffffff;
     border-bottom: 0.533vw solid #ffffff;
-    -webkit-animation: 1.5s arrow375 linear infinite;
-            animation: 1.5s arrow375 linear infinite;
+    animation: 1.5s arrow375 linear infinite;
   }
   .beginning .beginning__container .beginning__slider .circl-background {
     width: 89.867vw;
@@ -528,18 +494,18 @@
     z-index: -1;
   }
   #waterway .waterway-texts #waterway-text-1,
-#waterway .waterway-texts #waterway-text-2,
-#waterway .waterway-texts #waterway-text-3,
-#waterway .waterway-texts #waterway-text-4 {
+  #waterway .waterway-texts #waterway-text-2,
+  #waterway .waterway-texts #waterway-text-3,
+  #waterway .waterway-texts #waterway-text-4 {
     position: relative;
     padding: 41.6vw 0 0 0;
     height: auto;
     margin: 0 0 12vw 0;
   }
   #waterway .waterway-texts #waterway-text-1::before,
-#waterway .waterway-texts #waterway-text-2::before,
-#waterway .waterway-texts #waterway-text-3::before,
-#waterway .waterway-texts #waterway-text-4::before {
+  #waterway .waterway-texts #waterway-text-2::before,
+  #waterway .waterway-texts #waterway-text-3::before,
+  #waterway .waterway-texts #waterway-text-4::before {
     font-family: "Wild World";
     font-style: normal;
     font-weight: 500;
@@ -548,9 +514,9 @@
     color: #ffffff;
   }
   #waterway .waterway-texts #waterway-text-1::after,
-#waterway .waterway-texts #waterway-text-2::after,
-#waterway .waterway-texts #waterway-text-3::after,
-#waterway .waterway-texts #waterway-text-4::after {
+  #waterway .waterway-texts #waterway-text-2::after,
+  #waterway .waterway-texts #waterway-text-3::after,
+  #waterway .waterway-texts #waterway-text-4::after {
     content: "";
     position: absolute;
     width: 34.667vw;
@@ -559,8 +525,7 @@
     top: 7.2vw;
     right: auto;
     left: 0;
-    -webkit-animation: 4s bubbles-waterway ease-in-out infinite;
-            animation: 4s bubbles-waterway ease-in-out infinite;
+    animation: 4s bubbles-waterway ease-in-out infinite;
   }
   #waterway .waterway-texts #waterway-text-1::before {
     content: "Season 1";

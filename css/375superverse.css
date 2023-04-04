@@ -68,7 +68,7 @@
     height: 133.333vw;
   }
   .superverse .superverse__container .superverse__slider-wrapper .button-prev,
-.superverse .superverse__container .superverse__slider-wrapper .button-next {
+  .superverse .superverse__container .superverse__slider-wrapper .button-next {
     bottom: 7%;
     width: 14.933vw;
     height: 6.4vw;
@@ -76,16 +76,16 @@
     border-radius: 2.133vw;
   }
   .superverse .superverse__container .superverse__slider-wrapper .button-prev img,
-.superverse .superverse__container .superverse__slider-wrapper .button-next img {
+  .superverse .superverse__container .superverse__slider-wrapper .button-next img {
     width: 9.067vw;
     height: 2.667vw;
   }
   .superverse .superverse__container .superverse__slider-wrapper .button-prev:hover,
-.superverse .superverse__container .superverse__slider-wrapper .button-next:hover {
+  .superverse .superverse__container .superverse__slider-wrapper .button-next:hover {
     border: 1px solid #ff66c4;
   }
   .superverse .superverse__container .superverse__slider-wrapper .button-prev.inactive:hover,
-.superverse .superverse__container .superverse__slider-wrapper .button-next.inactive:hover {
+  .superverse .superverse__container .superverse__slider-wrapper .button-next.inactive:hover {
     border: 1px solid #ffffff;
   }
   .superverse .superverse__container .superverse__slider-wrapper .button-next {
@@ -108,7 +108,7 @@
     z-index: 2;
   }
   .superverse .superverse__container .superverse__slider-wrapper .slide-container .line-left,
-.superverse .superverse__container .superverse__slider-wrapper .slide-container .line-right {
+  .superverse .superverse__container .superverse__slider-wrapper .slide-container .line-right {
     height: 133.333vw;
   }
   .superverse .superverse__container .superverse__slider-wrapper .slide-container .line-left {

@@ -1,4 +1,4 @@
-window.onload = function () {
+// window.onload = function () {
   let buttonPrev = document.querySelector(".button-prev"),
     buttonNext = document.querySelector(".button-next"),
     slideWrapper = document.querySelector(".slide-wrapper"),
@@ -56,10 +56,10 @@ window.onload = function () {
     if (screen.width >= 1281) {
       countVw(19.2, 0.1);
     }
-    if (screen.width >= 861) {
+    if ((screen.width >= 861) & (screen.width <= 1280))  {
       countVw(10.24, 0.0867);
     }
-    if (screen.width >= 601) {
+    if ((screen.width >= 601) & (screen.width <= 860)) {
       countVw(7.68, 0.08);
     }
     if (screen.width <= 600) {
@@ -131,4 +131,4 @@ window.onload = function () {
       }
     });
   }
-};
+// };

@@ -1,14 +1,3 @@
-@-webkit-keyframes about-logo-bg {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(14.5%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
 @keyframes about-logo-bg {
   0% {
     transform: translateY(0);
@@ -18,20 +7,6 @@
   }
   100% {
     transform: translateY(0);
-  }
-}
-@-webkit-keyframes bounce-in {
-  0% {
-    transform: scale(1);
-  }
-  5% {
-    transform: scale(1.06);
-  }
-  20% {
-    transform: scale(1.03);
-  }
-  30% {
-    transform: scale(1.06);
   }
 }
 @keyframes bounce-in {
@@ -57,7 +32,6 @@
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   font-style: normal;
 }
@@ -149,8 +123,7 @@ a {
   width: 30vw;
   height: auto;
   opacity: 0.1;
-  -webkit-animation: about-logo-bg 6s ease-in-out infinite;
-          animation: about-logo-bg 6s ease-in-out infinite;
+  animation: about-logo-bg 6s ease-in-out infinite;
   z-index: 1;
 }
 .about .about-bg {
@@ -362,8 +335,7 @@ a {
   top: 2.083vw;
   width: 37.396vw;
   height: auto;
-  -webkit-animation: 1.3s bounce-in infinite;
-          animation: 1.3s bounce-in infinite;
+  animation: 1.3s bounce-in infinite;
 }
 .charity .heart-container .heart-wrapper .planet {
   position: absolute;
@@ -526,7 +498,6 @@ a {
   display: flex;
   justify-content: center;
   gap: 3.385vw;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
 }
@@ -939,9 +910,9 @@ a {
 
 @media only screen and (min-aspect-ratio: 1920/860) and (min-width: 1281px) {
   .about,
-.charity,
-.roadmap,
-.story {
+  .charity,
+  .roadmap,
+  .story {
     height: 50.521vw;
   }
 }/*# sourceMappingURL=1920about.css.map */

@@ -93,7 +93,7 @@
     justify-content: space-between;
   }
   .about .about__container .about__slider-wrapper .slider .button-prev,
-.about .about__container .about__slider-wrapper .slider .button-next {
+  .about .about__container .about__slider-wrapper .slider .button-next {
     position: absolute;
     left: 50%;
     top: auto;
@@ -105,16 +105,16 @@
     transform: none;
   }
   .about .about__container .about__slider-wrapper .slider .button-prev img,
-.about .about__container .about__slider-wrapper .slider .button-next img {
+  .about .about__container .about__slider-wrapper .slider .button-next img {
     width: 9.066vw;
     height: 2.666vw;
   }
   .about .about__container .about__slider-wrapper .slider .button-prev:hover,
-.about .about__container .about__slider-wrapper .slider .button-next:hover {
+  .about .about__container .about__slider-wrapper .slider .button-next:hover {
     border: 1px solid #ff66c4;
   }
   .about .about__container .about__slider-wrapper .slider .button-prev.inactive:hover,
-.about .about__container .about__slider-wrapper .slider .button-next.inactive:hover {
+  .about .about__container .about__slider-wrapper .slider .button-next.inactive:hover {
     border: 1px solid #ffffff;
   }
   .about .about__container .about__slider-wrapper .slider .button-next {

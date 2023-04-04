@@ -1,29 +1,10 @@
 @media only screen and (max-width: 860px) {
-  @-webkit-keyframes water1024 {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-364.583vw);
-    }
-  }
   @keyframes water1024 {
     0% {
       transform: translateX(0);
     }
     100% {
       transform: translateX(-364.583vw);
-    }
-  }
-  @-webkit-keyframes main-button768 {
-    0% {
-      margin-bottom: 0vw;
-    }
-    50% {
-      margin-bottom: 3.906vw;
-    }
-    100% {
-      margin-bottom: 0vw;
     }
   }
   @keyframes main-button768 {
@@ -35,17 +16,6 @@
     }
     100% {
       margin-bottom: 0vw;
-    }
-  }
-  @-webkit-keyframes begining-arrow768 {
-    0% {
-      transform: translateY(0) rotate(-45deg);
-    }
-    50% {
-      transform: translateY(-120%) rotate(-45deg);
-    }
-    100% {
-      transform: translateY(0) rotate(-45deg);
     }
   }
   @keyframes begining-arrow768 {
@@ -98,8 +68,7 @@
     background-size: 364.584vw 61.459vw;
     width: 729.167vw;
     height: 61.459vw;
-    -webkit-animation: 15s water1024 linear infinite;
-            animation: 15s water1024 linear infinite;
+    animation: 15s water1024 linear infinite;
   }
   .main .water-blur1 {
     height: 52.083vw;
@@ -162,8 +131,7 @@
     height: 23.437vw;
     font-size: 2.344vw;
     line-height: 3.516vw;
-    -webkit-animation: main-button768 3s linear infinite;
-            animation: main-button768 3s linear infinite;
+    animation: main-button768 3s linear infinite;
   }
   .main .main__container .populacion-container .main-button img {
     bottom: 4.688vw;
@@ -213,8 +181,7 @@
     border-left: 0.26vw solid #ffffff;
     border-bottom: 0.26vw solid #ffffff;
     transform: translateY(0) rotate(-45deg);
-    -webkit-animation: 1.5s begining-arrow768 linear infinite;
-            animation: 1.5s begining-arrow768 linear infinite;
+    animation: 1.5s begining-arrow768 linear infinite;
   }
   .beginning .beginning__container::after {
     content: "";
@@ -228,8 +195,7 @@
     border-left: 0.26vw solid #ffffff;
     border-bottom: 0.26vw solid #ffffff;
     transform: translateY(0) rotate(-45deg);
-    -webkit-animation: 1.5s begining-arrow768 linear infinite;
-            animation: 1.5s begining-arrow768 linear infinite;
+    animation: 1.5s begining-arrow768 linear infinite;
   }
   .beginning .beginning__container .beginning__slider {
     width: 57.031vw;
@@ -435,7 +401,6 @@
   #mint .container {
     width: 90.5vw;
     display: flex;
-    height: -webkit-min-content;
     height: -moz-min-content;
     height: min-content;
     flex-direction: column;

@@ -86,7 +86,7 @@
     justify-content: space-between;
   }
   .about .about__container .about__slider-wrapper .slider .button-prev,
-.about .about__container .about__slider-wrapper .slider .button-next {
+  .about .about__container .about__slider-wrapper .slider .button-next {
     position: static;
     left: auto;
     top: auto;
@@ -98,16 +98,16 @@
     transform: none;
   }
   .about .about__container .about__slider-wrapper .slider .button-prev img,
-.about .about__container .about__slider-wrapper .slider .button-next img {
+  .about .about__container .about__slider-wrapper .slider .button-next img {
     width: 4.427vw;
     height: 1.302vw;
   }
   .about .about__container .about__slider-wrapper .slider .button-prev:hover,
-.about .about__container .about__slider-wrapper .slider .button-next:hover {
+  .about .about__container .about__slider-wrapper .slider .button-next:hover {
     border: 1px solid #ff66c4;
   }
   .about .about__container .about__slider-wrapper .slider .button-prev.inactive:hover,
-.about .about__container .about__slider-wrapper .slider .button-next.inactive:hover {
+  .about .about__container .about__slider-wrapper .slider .button-next.inactive:hover {
     border: 1px solid #ffffff;
   }
   .about .about__container .about__slider-wrapper .slider .button-next img {
@@ -345,9 +345,9 @@
 }
 @media only screen and (min-aspect-ratio: 768/800) and (min-width: 601px) and (max-width: 860px) {
   .about,
-.charity,
-.roadmap,
-.story {
+  .charity,
+  .roadmap,
+  .story {
     height: 117.188vw;
   }
 }/*# sourceMappingURL=768about.css.map */
